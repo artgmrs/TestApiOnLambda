@@ -21,4 +21,6 @@ Certifique-se de ter os seguintes softwares instalados em sua máquina:
 
 Qualquer commit na branch `main` dispara um pipeline realiza o build e deploy da API na AWS como uma Lambda Function.
 
+O pipeline autentica com a AWS via OpenID Connect (OIDC).
+
 
