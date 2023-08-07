@@ -45,4 +45,4 @@ jobs:
     #- name: Go to Lambda folder
     #  run: cd ./TestApiOnLambda
     - name: Deploy to AWS Lambda
-      run: dotnet lambda deploy-function
+      run: dotnet lambda deploy-function --project-location ./TestApiOnLambda
