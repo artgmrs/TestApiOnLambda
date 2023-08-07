@@ -33,7 +33,7 @@ jobs:
       with:
         role-to-assume: ${{ secrets.ROLE_TO_ASSUME }}
         aws-region: sa-east-1
-        role-skip-session-tagging: true
+        #role-skip-session-tagging: true
     - name: Build
       run: dotnet build --no-restore
     - name: Display current directory structure
